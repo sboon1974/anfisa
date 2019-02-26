@@ -1,0 +1,75 @@
+[
+  {
+    "beacon": {
+      "id": "amplab",
+      "name": "AMPLab - 1000 Genomes Project",
+      "url": null,
+      "organization": "AMPLab, UC Berkeley",
+      "description": null,
+      "homePage": null,
+      "email": null,
+      "aggregator": false,
+      "enabled": false,
+      "visible": false,
+      "createdDate": "2014-03-20",
+      "supportedReferences": [
+        "HG19",
+        "HG18",
+        "HG38"
+      ],
+      "aggregatedBeacons": null
+    },
+    "query": {
+      "chromosome": "CHR1",
+      "position": 16360315,
+      "referenceAllele": null,
+      "allele": "T",
+      "reference": "HG19"
+    },
+    "response": false,
+    "frequency": null,
+    "externalUrl": null,
+    "info": null,
+    "authHint": {
+      "accessType": "public",
+      "authRequirements": []
+    },
+    "fullBeaconResponse": null
+  },
+  {
+    "beacon": {
+      "id": "kaviar",
+      "name": "Kaviar",
+      "url": null,
+      "organization": "Institute for Systems Biology",
+      "description": null,
+      "homePage": null,
+      "email": null,
+      "aggregator": false,
+      "enabled": false,
+      "visible": false,
+      "createdDate": "2014-05-12",
+      "supportedReferences": [
+        "HG19",
+        "HG18"
+      ],
+      "aggregatedBeacons": null
+    },
+    "query": {
+      "chromosome": "CHR1",
+      "position": 16360315,
+      "referenceAllele": null,
+      "allele": "T",
+      "reference": "HG19"
+    },
+    "response": true,
+    "frequency": null,
+    "externalUrl": null,
+    "info": null,
+    "authHint": {
+      "accessType": "public",
+      "authRequirements": []
+    },
+    "fullBeaconResponse": null
+  }
+]

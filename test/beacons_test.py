@@ -114,5 +114,21 @@ class ExcelExportTest(unittest.TestCase):
         self.assertTrue(len(res) > 0)
 
 
+§    def test_search_pos16360316(self):
+        """
+        https://beacon-network.org/#/search?pos=16360316&chrom=1&allele=T&ref=A&rs=GRCh37
+        :return:
+        """
+        beacon = Beacon()
+        res = beacon.responsesJson(chrom=1,
+                                      pos=16360315,
+                                      allele='T',
+                                      ref='GRCh37',
+                                      referenceAllele = 'A',
+                                      beacon=["kaviar", "amplab"])
+        print res
+        self.assertTrue(len(res) > 0)
+
+
 if __name__ == '__main__':
     unittest.main()
